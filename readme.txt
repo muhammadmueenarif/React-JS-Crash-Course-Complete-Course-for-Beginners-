@@ -46,4 +46,10 @@ them. in js we use ${} and put variable name inside it but in react we can use d
 if we want to use variables combined we can put {firstvariable +" "+ secondvariable }. if we don't use +" "
 then there will be no space between these two variables. we can use {firstvariable}{secondvariable} separately. 
 if we give space every time by +" ", then it becomes complex. but we can use <h1> {`we are ${firstvariable} 
-${secondvariable}`} </h1>. we can use Template Literals inside {}.  
+${secondvariable}`} </h1>. we can use Template Literals inside {}. 
+
+
+Lec 6. Components in React JS. 
+we use components for reuseability. when we create component, we import react in each file. once function is 
+created we need to export it at the end. export default functionName; if there are more than one, then we need to 
+export as export {functionOne, functionTwo} and without using default keyword. 
