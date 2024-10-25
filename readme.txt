@@ -26,3 +26,14 @@ our browser do not understand react, so when load the browser converts code into
 js in html, we need to use script tag and then use it but using jsx we can write js inside the html. 
 we need to import react and reactDOm in index.js to use it. 
 
+
+Lec 4. Styling component hooks. 
+internal and inline styling. 
+<h1 style={{color:"red"}}>This is heading</h1>. 
+
+or const main = {
+    background:"Red",
+    color:"yellow",
+}
+
+<div style={main}> <h1>How are you?</h1> </div>
