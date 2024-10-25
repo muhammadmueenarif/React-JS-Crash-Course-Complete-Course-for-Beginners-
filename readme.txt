@@ -68,3 +68,9 @@ function User(props) {
     )    
 }
 
+
+Lec 8. Hooks 
+class based and function based two components. we write any component in class and then convert it into function. 
+function based component don't have this complication. in hooks, we need to write just few lines of codes. 
+we have many hooks like useState, useRef, useEffect, useNavigator. We can also make our own hooks. 
+hooks are imported at the top and written at the top of component. 
