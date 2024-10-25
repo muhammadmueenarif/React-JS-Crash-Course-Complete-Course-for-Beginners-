@@ -77,3 +77,8 @@ hooks are imported at the top and written at the top of component.
 
 
 Lec 9. Project 1. 
+counter html and css. 
+
+
+Lec 10. Project 1. part 2. 
+react use state added. 
