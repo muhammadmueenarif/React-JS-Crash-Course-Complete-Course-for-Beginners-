@@ -2,14 +2,15 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import "./counter.css";
 import Test from "./test";
+import Counter from "./components/counter";
 
 function App() {
-  const [toggle, updateToggle] = useState(false);
+//   const [toggle, updateToggle] = useState(false);
 
   return (
     <div>
-      <button onClick={()=> {updateToggle(!toggle);}}>Toggle</button>
-      {toggle && <Test/>}
+      <header/>
+      <Counter/>
     </div>
   );
 }

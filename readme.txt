@@ -93,3 +93,8 @@ these children can be component and functions. create app.js file and import rea
 Lec 12. Conditional Rendering. 
 in simple js we use if else for Conditional rendering but in jsx we can't use that. if we do that, we get error. 
 so we will use condition ? trueResult : falseResult. 
+
+
+Lec 13. useEffect hook in react js. 
+very helpful in functional components. if we want to make changes during rendering then we can use useEffect. 
+in our counter app, when we click on button, only button increment but i want to get alert also and increment. 
