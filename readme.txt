@@ -53,3 +53,18 @@ Lec 6. Components in React JS.
 we use components for reuseability. when we create component, we import react in each file. once function is 
 created we need to export it at the end. export default functionName; if there are more than one, then we need to 
 export as export {functionOne, functionTwo} and without using default keyword. 
+
+
+Lec 7. Props in React JS. 
+we created component, but how to pass data of component to other. there we need props. we will pass data as props 
+from parent and then access it using props keyword in which component we want to use. 
+<User name="Kashan" expertise="Developer" />
+function User(props) {
+    return(
+        <>
+        <h1>My name is {props.name}</h1>
+        <p>I am a {props.expertise}</p>
+        </>
+    )    
+}
+
