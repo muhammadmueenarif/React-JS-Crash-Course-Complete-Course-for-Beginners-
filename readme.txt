@@ -82,3 +82,14 @@ counter html and css.
 
 Lec 10. Project 1. part 2. 
 react use state added. 
+
+
+Lec 11. Hierarichy rendering and Advanced Hooks
+Understanding hierarichy. 
+react works in hierarichel manner. it has parent and then children and children keep on forming until we want. 
+these children can be component and functions. create app.js file and import react from it and make function. 
+
+
+Lec 12. Conditional Rendering. 
+in simple js we use if else for Conditional rendering but in jsx we can't use that. if we do that, we get error. 
+so we will use condition ? trueResult : falseResult. 

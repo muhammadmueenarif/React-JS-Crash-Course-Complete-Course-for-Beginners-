@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Header from "./components/header.js";
-import Counter from "./components/counter.js";
 import "./counter.css";
+import Test from "./test";
 
 function App() {
+  const [toggle, updateToggle] = useState(false);
+
   return (
-    <>
-      <div className="main">
-        <Header />
-        <Counter />
-      </div>
-    </>
+    <div>
+      <button onClick={()=> {updateToggle(!toggle);}}>Toggle</button>
+      {toggle && <Test/>}
+    </div>
   );
 }
 export default App;
