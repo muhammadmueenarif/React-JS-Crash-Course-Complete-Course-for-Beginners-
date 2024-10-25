@@ -19,3 +19,10 @@ we have first folder node_modules. these are packages we installed through npm. 
 here. e.g., if we install bootstrap or tailwind, we see its dependencies here. in package.json, the metadata 
 of our application is stored like app, name, version dependencies, scripts. don't delete these are important. 
 in index.js we have render that displays content of application on browser. 
+
+
+Lec 3. JSX in react js. 
+our browser do not understand react, so when load the browser converts code into its own form. if we want to use 
+js in html, we need to use script tag and then use it but using jsx we can write js inside the html. 
+we need to import react and reactDOm in index.js to use it. 
+
