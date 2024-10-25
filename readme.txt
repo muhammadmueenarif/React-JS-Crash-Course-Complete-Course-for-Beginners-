@@ -37,3 +37,13 @@ or const main = {
 }
 
 <div style={main}> <h1>How are you?</h1> </div>
+
+
+Lec 5. Template Literals in React. js
+in html file, we can use js using Template Literals ``. <></> this is fragment. if we want to use more than one 
+elements tags then we will need to use them inside this fragment. we can just put variable inside the {} and use 
+them. in js we use ${} and put variable name inside it but in react we can use directly inside {} without $ and ``. 
+if we want to use variables combined we can put {firstvariable +" "+ secondvariable }. if we don't use +" "
+then there will be no space between these two variables. we can use {firstvariable}{secondvariable} separately. 
+if we give space every time by +" ", then it becomes complex. but we can use <h1> {`we are ${firstvariable} 
+${secondvariable}`} </h1>. we can use Template Literals inside {}.  
