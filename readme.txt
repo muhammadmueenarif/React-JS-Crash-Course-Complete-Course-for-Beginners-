@@ -183,3 +183,9 @@ Building a restful api in ReactJS. Part 1.
 How to use restful api in our Project. how to manipulate api and fetch the data that we need. 
 what is api? if we want to fetch data from sever, we will send request. that request is form of api. we will use 
 Pokemon api that tells us about all the Pokemon and which Pokemon is present on what number. 
+
+Part 2. 
+fetching data from api and displaying it in our project.
+different Pokemon are present on different number. the number which user selects, then its corresponding Pokemon
+should display. we will need to install axios package of npm. 
+https://pokeapi.co/ we will use this url to fetch api. we will import axios in file where fetch data. 
