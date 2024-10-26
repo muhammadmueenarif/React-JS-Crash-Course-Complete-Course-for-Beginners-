@@ -1,32 +1,33 @@
-import React, { useEffect, useState } from "react";
 import "./App.css";
-import "./counter.css";
-import Test from "./test";
-import Counter from "./components/counter";
-import Home from "./components/Home";
-import About from "./components/About";
-import { Routes, Route } from "react-router-dom";
-import Header from "./components/header";
-import Error from "./components/ErrorPage";
 
 function App() {
   //   const [toggle, updateToggle] = useState(false);
 
   return (
     <>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-        <Header /> <Home />
-            </>
-          }/> {/*header will always show*/}
+      <div className="calc">
+      <input type="text" placeholder="0" id="answer"/>
+      <input type="button" value="9" className="button"/>
+      <input type="button" value="8" className="button"/>
+      <input type="button" value="7" className="button"/>
+      <input type="button" value="6" className="button"/>
+      <input type="button" value="5" className="button"/>
+      <input type="button" value="4" className="button"/>
+      <input type="button" value="3" className="button"/>
+      <input type="button" value="2" className="button"/>
+      <input type="button" value="1" className="button"/>
 
-        <Route path="/about" element={<> <Header/> <About /></>} />{" "}
-        {/*when someone goes on /about url, about page will show */}
-        <Route path="*" element={<> <Error/> </>} /> {/*when someone enters invalid url, this component will show */}
-      </Routes>
+      <input type="button" value="0" className="button"/>
+      <input type="button" value="+" className="button"/>
+      <input type="button" value="-" className="button"/>
+      <input type="button" value="/" className="button"/>
+      <input type="button" value="*" className="button"/>
+      <input type="button" value="%" className="button"/>
+      <input type="button" value="." className="button"/>
+
+      <input type="button" value="Clear" className="button button1"/>
+      <input type="button" value="=" className="button button1"/>
+      </div>
     </>
   );
 }

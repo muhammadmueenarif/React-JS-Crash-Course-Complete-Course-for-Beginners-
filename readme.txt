@@ -153,3 +153,27 @@ make error page and then export it and then use it in app.js file.
 <Route path="*" element={<> <Error/> </>} /> 
 now if someone enter wrong url, then error page will show. 
 
+
+Lec 17. Using useNavigate Hook. 
+if we get condition in which we want that after one condition, we do transition b/w different groups. we use 
+useNavigate hook. we need to import this first. 
+import { useNavigate } from 'react-router-dom';
+
+function Home() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/about');
+    }
+  return (
+    <>
+    <p>This is Home Page</p>
+    <button onClick={handleClick}>Click me</button>
+    </>
+  )
+}
+when we click on buton, it moves to about page. 
+
+
+Lec 18. Building calculator. Part 1. 
+
