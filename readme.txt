@@ -180,4 +180,6 @@ Lec 19. Building calculator. Part 2.
 
 Lec 20. Using the Pokemon API 
 Building a restful api in ReactJS. Part 1. 
-
+How to use restful api in our Project. how to manipulate api and fetch the data that we need. 
+what is api? if we want to fetch data from sever, we will send request. that request is form of api. we will use 
+Pokemon api that tells us about all the Pokemon and which Pokemon is present on what number. 
