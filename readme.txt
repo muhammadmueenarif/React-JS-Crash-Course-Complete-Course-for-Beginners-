@@ -196,3 +196,27 @@ when we use async function, we must use await keyword to get proper response. us
 or any other thing that you want to get in response like name or other thing. 
 
 
+Lec 23. Using array.map() inside jsx element. 
+we have 3 arguments in array.map(). first is current value, second argument is index, third argument is array.
+like if we have more than one array than this third argument keeps track of on which we are looping. 
+
+
+Lec 24. How to use Material UI in React. 
+if we have different icons and avatars in the project than material ui is useful. we can use different 
+icons avatars and fonts. we need to install it and then we can use it. use below comman to install.  
+npm install @mui/material @emotion/react @emotion/styled
+
+you can check in package.json whether it is installed or not. if we want to use different component, then it is 
+possible to do through it. all details are written in documentation where you can check. 
+we don't need to write lengthy code but we can get readymade source code. if we are making ecommerce, then the 
+dashboard style design is available. we have multiple available that we can import in our project. 
+
+npm install @fontsource/roboto. install fonts. 
+npm install @mui/icons-material. 
+then import where want to use. 
+
+once installed, then we can integrate component and icons in our system. for this, goto website of material ui
+and goto font icons. there are large icons. 
+import {EmailIcon} from '@mui/icons-material/Email';
+copy this type of code by clicking on the icon and then use in code. <EmailIcon/>
+similarly copy other icon codes. 
