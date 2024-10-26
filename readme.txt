@@ -98,3 +98,26 @@ so we will use condition ? trueResult : falseResult.
 Lec 13. useEffect hook in react js. 
 very helpful in functional components. if we want to make changes during rendering then we can use useEffect. 
 in our counter app, when we click on button, only button increment but i want to get alert also and increment. 
+
+
+Lec 14. React Router DOM
+we have different pages on our website. if we want every page has its separate route, then we have to define the route. and we define that 
+route with the help of npm package react router dom. before using it, we need to install it in the Project. 
+npm install react-router-dom command to install it. when it is installed, we will import it in file to use it.
+read documentation of react router dom how to use it. in index.js add, 
+import { BrowserRouter } from "react-router-dom";
+
+write main rendering component as   
+<BrowserRouter>
+    <App />
+  </BrowserRouter>. 
+
+to use routes we need to import it in the file. import { Routes, Route } from "react-router-dom";
+then we can use them as below: 
+  <>
+      <Routes>
+        <Route path="/" element={<Home/>}/> {/*default page home*/}
+      <Route path="/about" element={<About/>}/> {/*when someone goes on about route, about page will show */}
+      </Routes>
+    </>
+
