@@ -143,3 +143,13 @@ we can't do that like a tag of html. we use ahref in html but here we use to="".
   </div>
 
   now if we click on home button, we will goto home and if we click on about, we will go to about page. 
+
+
+  Lec 16. Handling error pages with React Router DOM. 
+  we have defined proper routes like home and about but what happens if someone enter invalid route like /gsjfhsk.
+  react will show nothing. so we will make a page for error handling like what page should be shown if someone 
+  enters wrong url. 
+make error page and then export it and then use it in app.js file. 
+<Route path="*" element={<> <Error/> </>} /> 
+now if someone enter wrong url, then error page will show. 
+
