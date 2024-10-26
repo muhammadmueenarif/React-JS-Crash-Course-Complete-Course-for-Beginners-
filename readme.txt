@@ -121,3 +121,25 @@ then we can use them as below:
       </Routes>
     </>
 
+
+Lec 15. Linking in react router DOM. 
+if we click on button or link, then we navigate to that particular page. if we want to use multiple
+inside the single route then we can use it as 
+
+<Route path="/" element={ 
+        <>
+        <Header /> <Home />
+        </>
+    }/>
+
+now i want that when i click on home in the Header, then i go to header page. if i click on about in header 
+then i go to about page. for this we will import Link from react router dom in the file where we want to use.
+we can't do that like a tag of html. we use ahref in html but here we use to="". 
+<div className="main-header">
+    <ul>
+        <Link to={"/"}><li>Home</li></Link>
+        <Link to={"/about"}><li>About</li></Link>
+    </ul>
+  </div>
+
+  now if we click on home button, we will goto home and if we click on about, we will go to about page. 

@@ -6,15 +6,24 @@ import Counter from "./components/counter";
 import Home from "./components/Home";
 import About from "./components/About";
 import { Routes, Route } from "react-router-dom";
+import Header from "./components/header";
 
 function App() {
-//   const [toggle, updateToggle] = useState(false);
+  //   const [toggle, updateToggle] = useState(false);
 
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home/>}/> {/*default page home*/}
-      <Route path="/about" element={<About/>}/> {/*when someone goes on about route, about page will show */}
+        <Route
+          path="/"
+          element={
+            <>
+        <Header /> <Home />
+            </>
+          }/> {/*header will always show*/}
+
+        <Route path="/about" element={<> <Header/> <About /></>} />{" "}
+        {/*when someone goes on /about url, about page will show */}
       </Routes>
     </>
   );
