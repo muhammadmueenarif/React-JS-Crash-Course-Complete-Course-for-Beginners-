@@ -176,4 +176,8 @@ when we click on buton, it moves to about page.
 
 
 Lec 18. Building calculator. Part 1. 
+Lec 19. Building calculator. Part 2. 
+
+Lec 20. Using the Pokemon API 
+Building a restful api in ReactJS. Part 1. 
 
