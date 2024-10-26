@@ -184,8 +184,15 @@ How to use restful api in our Project. how to manipulate api and fetch the data 
 what is api? if we want to fetch data from sever, we will send request. that request is form of api. we will use 
 Pokemon api that tells us about all the Pokemon and which Pokemon is present on what number. 
 
-Part 2. 
+Lec 21. Part 2. 
 fetching data from api and displaying it in our project.
 different Pokemon are present on different number. the number which user selects, then its corresponding Pokemon
 should display. we will need to install axios package of npm. 
 https://pokeapi.co/ we will use this url to fetch api. we will import axios in file where fetch data. 
+
+
+Lec 22. Part 3. 
+when we use async function, we must use await keyword to get proper response. use property res.data.length
+or any other thing that you want to get in response like name or other thing. 
+
+
